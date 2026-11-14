@@ -1,0 +1,26 @@
+* {
+    font-family: "Go Mono";
+    font-size: 12px;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #242620;
+    color: #D6CFB8;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    color: #85866F;
+}
+
+#workspaces button.active {
+    background: #85866F;
+    color: #242620;
+}
+
+#clock, #battery {
+    padding: 0 8px;
+}

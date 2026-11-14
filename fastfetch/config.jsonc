@@ -1,0 +1,28 @@
+{
+    "logo": {
+        "type": "builtin",
+        "source": "void2_small",
+        "color": {
+            "1": "#85866F",
+            "2": "#D6CFB8"
+        },
+        "padding": {
+            "right": 2
+        }
+    },
+
+   "modules": [
+    "title",
+    "os",
+    "kernel",
+    "initSystem",
+    "shell",
+    {
+        "type": "wm",
+        "key": "Window Manager"
+    },
+    "packages",
+    "disk"
+   ]
+}   
+
